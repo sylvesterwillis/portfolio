@@ -1,0 +1,32 @@
+body {
+  padding: 1px;
+}
+.material-shadow {
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.26);
+}
+header#head {
+  background-color: #5f9ea0;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+}
+header#head div#header {
+  /* Start with smallest */
+  /* Serve larger image only if needed */
+}
+header#head div#header h1 {
+  margin-top: 0px;
+  display: inline;
+}
+header#head div#header .logo {
+  background-image: url(myurlSmall.png);
+}
+@media (min-width: 400px) {
+  header#head div#header .logo {
+    background-image: url(myurlMedium.png);
+  }
+}
+@media (min-width: 1200px) {
+  header#head div#header .logo {
+    background-image: url(myurlLarge.png);
+  }
+}
